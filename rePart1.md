@@ -5,9 +5,8 @@
 
  In Javascript a regex is enclosed with forward slashes like
 
- <pre lang="js">
- var regularExpression = /[a-z]/;
- </pre> 
+ <pre lang="js">var regularExpression = /[a-z]/;
+</pre> 
 
 they can also be written using object syntax
 
