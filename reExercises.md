@@ -10,8 +10,32 @@ Exercises are structured based on the following system
 
 <b>3.XX</b> - These are links to former ProgComp tasks or derivative tasks of similar difficulty that can be solved very efficiently using a regular expression. These tasks provide a practical use for regular expressions within a competitive programming context.
 
+# 1.1: Does not exist
 
-## 1.1: Now I know my abc's
+Given a string check whether it contains the character 'd' (case insensitive) if it does print the string and "does exist" or if it does not print "does not exist"
+
+Example Input
+
+<pre>
+Test Dharcter
+dtaa stuff
+IPT Class
+SDD Class
+the quick brown fox jumps over the dark cave
+</pre>
+
+Example output
+<pre>
+Test Dharcter - does exist
+dtaa stuff - does exist
+working dry code - does exist
+SDD - does exist
+the quick brown fox jumps over the dark cave - does exist
+</pre>
+
+
+
+## 1.2: Now I know my abc's
 
 ### Part A: Pre-Regex
 Given a string from the console check whether it contains the substring 'abc' (case sensitive) if it does print the string alongside either true or false.
@@ -37,7 +61,7 @@ Implement the above part this time using a regular expression. The example input
 Hint: The second part of this task can be achieved in 5 lines or under including the require at the top.
 
 
-## 1.2: Syntax Error
+## 1.3: Syntax Error
 Ah, the semicolon the bane of most programmers, semicolons in most languages are required at the end of lines of code to signify their end. Javascript thank goodness isn't one of these languages so your safe there.
 
 
