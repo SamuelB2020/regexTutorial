@@ -102,6 +102,14 @@ WET code works 07-E3 - Incorrect
 </pre>
 
 
-## 3.1
+## 3.1: Digital Extraction
+
+Please see task 1 in the following link to the 2009 Progcomp Competition
+
+<a href="http://cgi.cse.unsw.edu.au/~progcomp/pop.php?loc=2009opentasks#task1">Task</a>
+
+
+
+
 
 
