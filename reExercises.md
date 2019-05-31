@@ -124,16 +124,43 @@ WET code works 07-E3 - Incorrect
 44-52-59-20-43-6F-64-65 - Incorrect
 83-28-323-2-1 - Incorrect
 </pre>
+## 2.2: Is a correct sentence
+
+A correct sentence in this context is a sentence that begins with a capital letter and ends in either a full stop, question mark or exclamation mark. 
+
+Write a program that determines whether a given string matches these criteria and output the result to the console.
+
+Input
+<pre>
+i can engrish
+This is correctly formed prose.
+incorrecly form of sentence.
+To be, or not to be, that is the question.
+lets stop here, that is a good idea
+</pre>
+
+Output
+<pre>
+i can engrish - Incorrect
+This is correctly formed prose. - Correct
+incorrecly form of sentence. - Incorrect
+To be, or not to be, that is the question. - Correct
+lets stop here, that is a good idea - Incorrect
+</pre>
 
 
 ## 3.1: Digital Extraction
 
-Please see task 1 in the following link to the 2009 Progcomp Competition
+Please see task 1 in the following link to the 2009 ProgComp Competition
 
-<a href="http://cgi.cse.unsw.edu.au/~progcomp/pop.php?loc=2009opentasks#task1">Task</a>
+<a href="http://cgi.cse.unsw.edu.au/~progcomp/pop.php?loc=2009opentasks#task1">Task Link</a>
 
 
+## 3.2: Pangrams
 
+Please see task 2 in the following link to the 2012 ProgComp Competition
+
+<a href="http://cgi.cse.unsw.edu.au/~progcomp/pop.php?loc=2012opentasks#task2">Task Link</a>
 
 
 
