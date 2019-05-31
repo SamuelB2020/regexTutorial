@@ -19,8 +19,8 @@ Example Input
 <pre>
 Test Dharcter
 dtaa stuff
-working dry code
-SDD Class
+working code
+this is stuff
 the quick brown fox jumps over the dark cave
 </pre>
 
@@ -28,8 +28,8 @@ Example output
 <pre>
 Test Dharcter - does exist
 dtaa stuff - does exist
-working dry code - does exist
-SDD - does exist
+working code - does exist
+this is stuff - does exist
 the quick brown fox jumps over the dark cave - does exist
 </pre>
 
@@ -73,7 +73,7 @@ var test = 0
 test++;
 test = 9;
 console.log(HELP ME);
-code.write("WET Code")
+code.write("data")
 code.write("DRY Code");
 </pre>
 
@@ -83,7 +83,7 @@ var test = 0 - Your code is incorrect
 test++; - Correct
 test = 9; - Correct
 console.log(HELP ME); - Correct
-code.write("WET Code") - Your code is incorrect
+code.write("data") - Your code is incorrect
 code.write("DRY Code"); - Correct
 </pre>
 
