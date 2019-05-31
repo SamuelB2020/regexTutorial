@@ -29,3 +29,24 @@ The use of the . character will match any character one time in the first sectio
 
 <pre lang = "js">var regex = /\d/;</pre>
 The use of the \d will match any integer, if you need to match multiple integers you can stack them on top of each other i.e. \d\d for two ints.
+<pre lang = "js">var regex = /\D/;</pre>
+The use of a capital D will match any non digit character
+<pre lang = "js">var regex = /\w/;</pre>
+The use of the w pattern match will make it so that it matches any word character
+<pre lang = "js">var regex = /\W/;</pre>
+Match any non word character
+<pre lang = "js">var regex = /\s/;</pre>
+This will match any white space character
+#### Note *Using the capital will match the opposite for all of these pattern matching*
+
+<pre lang = "js">var regex = /[x-y]/;</pre>
+The use of square brackets allows the selecting of any characters inside them being matched. The use of a - will match a range from whatever is set i.e. a-z will match all charcters from a to z.
+
+<pre lang = "js">var regex = /[abcd]efg/;</pre>
+use the square brackets to match the start of a combination
+
+<pre lang = "js">var regex = /something{x}/;</pre>
+This can be used to match something x times you can put anyother characters in front.
+
+<pre lang ="js">var regex = /(something)?/;</pre>
+This will match the thing in the brackets if it exists.
