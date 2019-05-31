@@ -19,7 +19,7 @@ Example Input
 <pre>
 Test Dharcter
 dtaa stuff
-IPT Class
+working dry code
 SDD Class
 the quick brown fox jumps over the dark cave
 </pre>
