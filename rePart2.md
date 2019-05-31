@@ -73,7 +73,7 @@ The search method allows for a programmer to get details on where the match has 
 
 Consider the following
 
-<pre lang="js>
+<pre lang="js">
 var str = "hey MatE";
 boscode.display(str.search(/[A-Z]]/g)); // => 4, as this is the location of the first capital letter
 </pre>
